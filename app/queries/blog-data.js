@@ -1,6 +1,7 @@
 import { gql } from "graphql-request";
 import { getClient } from "../lib/graphQlClient";
 
+
 export const getAllPosts = async (tags) => {
     const client = getClient();
 
