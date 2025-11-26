@@ -6,10 +6,22 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "cdn.hashnode.com",
-        
+      },
+      {
+        protocol: "https",
+        hostname: "hashnode.imgix.net",
+      },
+      {
+        protocol: "https",
+        hostname: "media.hashnode.com",
+      },
+      {
+        protocol: "https",
+        hostname: "blog.greenroots.info",
       },
     ],
-  }
+  },
+  productionBrowserSourceMaps: false, // disables dev source map warnings
 };
 
 export default nextConfig;
